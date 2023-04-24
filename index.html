@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -25,25 +25,25 @@
                     <!-- Hamburger menu end -->
 
                     <!-- Navigation start -->
-                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none ">
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-slate-200 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none ">
                         <ul class="block lg:flex">
                             <li class="group">
-                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
+                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary group-hover:font-bold group-hover:text-lg duration-300 ease-in-out">Beranda</a>
                             </li>
                             <li class="group">
-                                <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Tentang Saya</a>
+                                <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary group-hover:font-bold group-hover:text-lg duration-300 ease-in-out">Tentang Saya</a>
                             </li>
                             <li class="group">
-                                <a href="#portofolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portofolio</a>
+                                <a href="#portofolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary group-hover:font-bold group-hover:text-lg duration-300 ease-in-out">Portofolio</a>
                             </li>
                             <li class="group">
-                                <a href="#clients" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Clients</a>
+                                <a href="#clients" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary group-hover:font-bold group-hover:text-lg duration-300 ease-in-out">Clients</a>
                             </li>
                             <li class="group">
-                                <a href="#blog" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Blog</a>
+                                <a href="#blog" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary group-hover:font-bold group-hover:text-lg duration-300 ease-in-out">Blog</a>
                             </li>
                             <li class="group">
-                                <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
+                                <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary group-hover:font-bold group-hover:text-lg duration-300 ease-in-out">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -83,16 +83,16 @@
           <div class="w-full self-end px-4 lg:w-1/2">
             <div class="relative mt-10 lg:mt-9 lg:right-0">
               <img
-                src="dist/img/myfoto.png"
-                class="max-w-full mx-auto translate-x-5"
+                src="dist/img/myfoto2.png"
+                class="max-w-full mx-auto "
                 alt=""
               />
               <span
-                class="absolute -bottom-20 -z-10 left-1/2 -translate-x-1/2 -translate-y-8 md:scale-150 md:-translate-y-24"
+                class="absolute -bottom-20 -z-10 left-1/2 -translate-x-1/2 -translate-y-8 sm:scale-75 md:scale-125 md:-translate-y-24"
               >
                 <svg
-                  width="350"
-                  height="350"
+                  width="400"
+                  height="400"
                   viewBox="0 0 200 200"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -497,6 +497,13 @@
       
     </footer>
     <!-- footer end -->
+
+    <!-- back to top start -->
+    <a id="to-top" href="#home" class="hover:animate-pulse hidden items-center justify-center h-12 w-12 bg-primary fixed z-[999] bottom-4 right-4 p-2 rounded-full opacity-50">
+      <span class="block w-5 h-5 border-t-2 border-l-2 rotate-45 mt-2"></span>
+    </a>
+    <!-- back to start end -->
+    
     <!-- script -->
     <script  src="dist/js/script.js"></script>
   </body>
