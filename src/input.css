@@ -30,3 +30,11 @@ body {
 #dark-toggle:checked ~ label div.toggle-circle {
   @apply translate-x-3;
 }
+
+.bg-gradient {
+  @apply bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent;
+}
+
+.bg-gradient-button {
+  @apply bg-gradient-to-r from-blue-500 to-teal-400;
+}
